@@ -29,7 +29,7 @@ export const InputToDo = () => {
     return (
         <div className="container-sm" id='inputSize'>
                 <div className="d-flex justify-content-center">
-                    <h1 className="heading py-3">New Affirmations</h1>
+                    <h1 className="heading py-3">To Do List</h1>
                 </div>
                 <form classname="task-form" onSubmit={handleSubmit} >
                     <div className="task input-group mb-3">
@@ -38,7 +38,7 @@ export const InputToDo = () => {
                         onChange={e => setNewItem(e.target.value)} 
                         type="text"   
                         className="form-control" 
-                        placeholder="What am I so.......?" 
+                        placeholder="What needs to be done?" 
                         aria-describedby="button-addon2" 
                         />               
                     </div>
@@ -61,3 +61,5 @@ export const InputToDo = () => {
     )
 }
 
+//make new button to iniate the delete function
+//implement function 
